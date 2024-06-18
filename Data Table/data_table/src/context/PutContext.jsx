@@ -1,11 +1,10 @@
-import React from 'react'
+import { createContext, useState } from "react";
 
-const PutContext = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export const PostContext=createContext()
+
+export function PostContexProvider({children}){
+
+    const [id,setid]=useState("")
+
+    return <PostContext.Provider  value={{id,setid}}>{children}</PostContext.Provider>
 }
-
-export default PutContext
