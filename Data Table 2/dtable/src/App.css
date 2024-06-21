@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.img
+{
+  justify-self: center;
+  height: 200px;
+  width: 200px;
+}
+.main
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  padding: 40px;
+}
+
+.scDiv
+{
+  border: 1px solid black;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 12px;  
+}
+
+.btn
+{
+  margin: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(127, 178, 255);
+  font-weight: bold;
+  border: none;
+}
+
+.para
+{
+  font-size: 10px;
+  height: 100px;
+}
+
+.post
+{
+  margin: 10px;
+  padding: 5px 20px;
+  background-color: azure;
+  border-radius: 5px;
+
+}
+button
+{
+  padding: 8px 30px;
+  font-weight: bold;
+  background-color:rgb(242, 138, 19);
+  border: none;
+  border-radius: 5px;
+}
+button:hover
+{
+  background-color: orange ;
+}
+.link
+{
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer ;
+
+}
+.link:hover
+{
+  color:black;
+}
